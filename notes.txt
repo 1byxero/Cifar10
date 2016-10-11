@@ -1,0 +1,37 @@
+cifar10
+nn config 3072 - 100 - 10
+single epoch training
+output:
+1.0013580322266e-05	 Seconds since start
+# StochasticGradient: training
+# current error = 2.3130464294558
+# StochasticGradient: you have reached the maximum number of iterations
+# training error = 2.3130464294558
+649.73331618309	 Seconds used for training
+
+single epoch test accuracy 10%
+
+
+cifar10
+nn config 3072 - 100 - 10
+5 epoch training
+output:
+# StochasticGradient: training
+# current error = 2.3157012420286
+# current error = 2.3147726537946
+# current error = 2.3150153763433
+# current error = 2.3153673633647
+# current error = 2.3152007011593
+# StochasticGradient: you have reached the maximum number of iterations	
+# training error = 2.3152007011593
+
+testing accuracy = 10%
+note: model predicting only 5. reason maybe hidden layer is not having enough neurons
+
+
+torch pretrained models link
+https://github.com/facebook/fb.resnet.torch/tree/master/pretrained
+https://github.com/szagoruyko/fastrcnn-models.torch
+https://github.com/szagoruyko/loadcaffe
+http://www.vlfeat.org/matconvnet/pretrained/
+
